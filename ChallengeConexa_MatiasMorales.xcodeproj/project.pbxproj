@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B69B76992DA9B0470001C887 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = B69B76982DA9B0470001C887 /* GoogleMaps */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B69B76752DA9AEDE0001C887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69B765C2DA9AEDC0001C887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B69B76632DA9AEDC0001C887;
+			remoteInfo = ChallengeConexa_MatiasMorales;
+		};
+		B69B767F2DA9AEDE0001C887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69B765C2DA9AEDC0001C887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B69B76632DA9AEDC0001C887;
+			remoteInfo = ChallengeConexa_MatiasMorales;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B69B76642DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeConexa_MatiasMorales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69B76742DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeConexa_MatiasMoralesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69B767E2DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeConexa_MatiasMoralesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B69B76662DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChallengeConexa_MatiasMorales;
+			sourceTree = "<group>";
+		};
+		B69B76772DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChallengeConexa_MatiasMoralesTests;
+			sourceTree = "<group>";
+		};
+		B69B76812DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChallengeConexa_MatiasMoralesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B69B76612DA9AEDC0001C887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69B76992DA9B0470001C887 /* GoogleMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69B76712DA9AEDE0001C887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69B767B2DA9AEDE0001C887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B69B765B2DA9AEDC0001C887 = {
+			isa = PBXGroup;
+			children = (
+				B69B76662DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales */,
+				B69B76772DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesTests */,
+				B69B76812DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesUITests */,
+				B69B76652DA9AEDC0001C887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B69B76652DA9AEDC0001C887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B69B76642DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales.app */,
+				B69B76742DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesTests.xctest */,
+				B69B767E2DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B69B76632DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B69B76882DA9AEDE0001C887 /* Build configuration list for PBXNativeTarget "ChallengeConexa_MatiasMorales" */;
+			buildPhases = (
+				B69B76602DA9AEDC0001C887 /* Sources */,
+				B69B76612DA9AEDC0001C887 /* Frameworks */,
+				B69B76622DA9AEDC0001C887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B69B76662DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales */,
+			);
+			name = ChallengeConexa_MatiasMorales;
+			packageProductDependencies = (
+				B69B76982DA9B0470001C887 /* GoogleMaps */,
+			);
+			productName = ChallengeConexa_MatiasMorales;
+			productReference = B69B76642DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B69B76732DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B69B768B2DA9AEDE0001C887 /* Build configuration list for PBXNativeTarget "ChallengeConexa_MatiasMoralesTests" */;
+			buildPhases = (
+				B69B76702DA9AEDE0001C887 /* Sources */,
+				B69B76712DA9AEDE0001C887 /* Frameworks */,
+				B69B76722DA9AEDE0001C887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B69B76762DA9AEDE0001C887 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B69B76772DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesTests */,
+			);
+			name = ChallengeConexa_MatiasMoralesTests;
+			packageProductDependencies = (
+			);
+			productName = ChallengeConexa_MatiasMoralesTests;
+			productReference = B69B76742DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B69B767D2DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B69B768E2DA9AEDE0001C887 /* Build configuration list for PBXNativeTarget "ChallengeConexa_MatiasMoralesUITests" */;
+			buildPhases = (
+				B69B767A2DA9AEDE0001C887 /* Sources */,
+				B69B767B2DA9AEDE0001C887 /* Frameworks */,
+				B69B767C2DA9AEDE0001C887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B69B76802DA9AEDE0001C887 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B69B76812DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesUITests */,
+			);
+			name = ChallengeConexa_MatiasMoralesUITests;
+			packageProductDependencies = (
+			);
+			productName = ChallengeConexa_MatiasMoralesUITests;
+			productReference = B69B767E2DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B69B765C2DA9AEDC0001C887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B69B76632DA9AEDC0001C887 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B69B76732DA9AEDE0001C887 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B69B76632DA9AEDC0001C887;
+					};
+					B69B767D2DA9AEDE0001C887 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B69B76632DA9AEDC0001C887;
+					};
+				};
+			};
+			buildConfigurationList = B69B765F2DA9AEDC0001C887 /* Build configuration list for PBXProject "ChallengeConexa_MatiasMorales" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B69B765B2DA9AEDC0001C887;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B69B76972DA9B0470001C887 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B69B76652DA9AEDC0001C887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B69B76632DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales */,
+				B69B76732DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesTests */,
+				B69B767D2DA9AEDE0001C887 /* ChallengeConexa_MatiasMoralesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B69B76622DA9AEDC0001C887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69B76722DA9AEDE0001C887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69B767C2DA9AEDE0001C887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B69B76602DA9AEDC0001C887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69B76702DA9AEDE0001C887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69B767A2DA9AEDE0001C887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B69B76762DA9AEDE0001C887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B69B76632DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales */;
+			targetProxy = B69B76752DA9AEDE0001C887 /* PBXContainerItemProxy */;
+		};
+		B69B76802DA9AEDE0001C887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B69B76632DA9AEDC0001C887 /* ChallengeConexa_MatiasMorales */;
+			targetProxy = B69B767F2DA9AEDE0001C887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B69B76862DA9AEDE0001C887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B69B76872DA9AEDE0001C887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B69B76892DA9AEDE0001C887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChallengeConexa_MatiasMorales/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Esta app requiere tu ubicacion";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Esta app necesita acceder a tu ubicación para mostrarla en el mapa";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Matias-Nicolas-Morales.ChallengeConexa-MatiasMorales";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B69B768A2DA9AEDE0001C887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChallengeConexa_MatiasMorales/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Esta app requiere tu ubicacion";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Esta app necesita acceder a tu ubicación para mostrarla en el mapa";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Matias-Nicolas-Morales.ChallengeConexa-MatiasMorales";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B69B768C2DA9AEDE0001C887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Matias-Nicolas-Morales.ChallengeConexa-MatiasMoralesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeConexa_MatiasMorales.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChallengeConexa_MatiasMorales";
+			};
+			name = Debug;
+		};
+		B69B768D2DA9AEDE0001C887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Matias-Nicolas-Morales.ChallengeConexa-MatiasMoralesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeConexa_MatiasMorales.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChallengeConexa_MatiasMorales";
+			};
+			name = Release;
+		};
+		B69B768F2DA9AEDE0001C887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Matias-Nicolas-Morales.ChallengeConexa-MatiasMoralesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChallengeConexa_MatiasMorales;
+			};
+			name = Debug;
+		};
+		B69B76902DA9AEDE0001C887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Matias-Nicolas-Morales.ChallengeConexa-MatiasMoralesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChallengeConexa_MatiasMorales;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B69B765F2DA9AEDC0001C887 /* Build configuration list for PBXProject "ChallengeConexa_MatiasMorales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69B76862DA9AEDE0001C887 /* Debug */,
+				B69B76872DA9AEDE0001C887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B69B76882DA9AEDE0001C887 /* Build configuration list for PBXNativeTarget "ChallengeConexa_MatiasMorales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69B76892DA9AEDE0001C887 /* Debug */,
+				B69B768A2DA9AEDE0001C887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B69B768B2DA9AEDE0001C887 /* Build configuration list for PBXNativeTarget "ChallengeConexa_MatiasMoralesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69B768C2DA9AEDE0001C887 /* Debug */,
+				B69B768D2DA9AEDE0001C887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B69B768E2DA9AEDE0001C887 /* Build configuration list for PBXNativeTarget "ChallengeConexa_MatiasMoralesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69B768F2DA9AEDE0001C887 /* Debug */,
+				B69B76902DA9AEDE0001C887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B69B76972DA9B0470001C887 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B69B76982DA9B0470001C887 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B69B76972DA9B0470001C887 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B69B765C2DA9AEDC0001C887 /* Project object */;
+}
