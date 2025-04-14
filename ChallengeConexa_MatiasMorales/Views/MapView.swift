@@ -24,9 +24,9 @@ struct MapView: UIViewRepresentable {
 
     func updateUIView(_ mapView: GMSMapView, context: Context) {
         guard let location = locationManager.userLocation else {
-                print("Ubicación no disponible aún")
-                return
-            }
+            print("Ubicación no disponible aún")
+            return
+        }
         print("Ubicación: \(location)")
         let camera = GMSCameraPosition.camera(withLatitude: location.latitude,
                                               longitude: location.longitude,

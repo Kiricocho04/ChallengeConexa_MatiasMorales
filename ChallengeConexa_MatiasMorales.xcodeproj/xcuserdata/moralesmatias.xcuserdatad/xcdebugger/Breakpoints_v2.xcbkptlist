@@ -130,64 +130,6 @@
             endingLineNumber = "25"
             landmarkName = "fetchUsers()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2FF960CC-00D4-4E3C-AC90-5EDE822AD92B - 4b20374c1b464c63"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for ChallengeConexa_MatiasMorales.UsersViewModel.fetchUsers() async -&gt; ()"
-                  moduleName = "ChallengeConexa_MatiasMorales.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moralesmatias/Desktop/ChallengeConexa_MatiasMorales/ChallengeConexa_MatiasMorales/ViewModels/UsersViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-               <Location
-                  uuid = "2FF960CC-00D4-4E3C-AC90-5EDE822AD92B - 3ed6eb895e467a31"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for ChallengeConexa_MatiasMorales.UsersViewModel.fetchUsers() async -&gt; ()"
-                  moduleName = "ChallengeConexa_MatiasMorales.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moralesmatias/Desktop/ChallengeConexa_MatiasMorales/ChallengeConexa_MatiasMorales/ViewModels/UsersViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-               <Location
-                  uuid = "2FF960CC-00D4-4E3C-AC90-5EDE822AD92B - 82d38e34453f5065"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for ChallengeConexa_MatiasMorales.UsersViewModel.fetchUsers() async -&gt; ()"
-                  moduleName = "ChallengeConexa_MatiasMorales.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moralesmatias/Desktop/ChallengeConexa_MatiasMorales/ChallengeConexa_MatiasMorales/ViewModels/UsersViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-               <Location
-                  uuid = "2FF960CC-00D4-4E3C-AC90-5EDE822AD92B - 5ef45a6badc3d266"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for ChallengeConexa_MatiasMorales.UsersViewModel.fetchUsers() async -&gt; ()"
-                  moduleName = "ChallengeConexa_MatiasMorales.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moralesmatias/Desktop/ChallengeConexa_MatiasMorales/ChallengeConexa_MatiasMorales/ViewModels/UsersViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
